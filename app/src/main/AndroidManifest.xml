@@ -20,7 +20,9 @@
         <activity android:name=".Search" />
         <activity android:name=".Settings" />
         <activity android:name=".Events" />
-        <activity android:name=".Friendsearch"></activity>
+        <activity android:name=".Friendsearch" />
+        <activity android:name=".Signup" />
+        <activity android:name=".Friendslist"></activity>
     </application>
 
 </manifest>
