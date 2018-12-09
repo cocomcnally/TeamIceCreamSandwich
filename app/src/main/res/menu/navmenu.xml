@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuHomepage"
+        android:title="Home Page" />
+    <item
+        android:id="@+id/menuSearch"
+        android:title="Search Events" />
+    <item
+        android:id="@+id/menuFriends"
+        android:title="Friends List" />
+    <item
+        android:id="@+id/menuSetting"
+        android:title="Settings" />
+    <item
+        android:id="@+id/menuLogout"
+        android:title="Log Out" />
+</menu>
