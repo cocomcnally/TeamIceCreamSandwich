@@ -22,7 +22,8 @@
         <activity android:name=".Events" />
         <activity android:name=".Friendsearch" />
         <activity android:name=".Signup" />
-        <activity android:name=".Friendslist"></activity>
+        <activity android:name=".Friendslist" />
+        <activity android:name=".TestActivity"></activity>
     </application>
 
 </manifest>
