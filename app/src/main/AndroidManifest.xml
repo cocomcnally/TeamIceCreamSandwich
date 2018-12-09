@@ -23,7 +23,11 @@
         <activity android:name=".Friendsearch" />
         <activity android:name=".Signup" />
         <activity android:name=".Friendslist" />
-        <activity android:name=".TestActivity"></activity>
+        <activity android:name=".TestActivity" />
+        <activity
+            android:name=".Event_Concert_Astroworld"
+            android:label="@string/title_activity_event__concert__astroworld"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
