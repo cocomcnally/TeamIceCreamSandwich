@@ -52,7 +52,7 @@ public class Signup extends Activity implements View.OnClickListener{
     public void onClick(View v) {
 
         if (v == buttonSignUp) {
-            mAuth.createUserWithEmailAndPassword(editTextEnterUserName.getText().toString(), editTextEnterPassword.getText().toString())
+            mAuth.createUserWithEmailAndPassword(editTextEnterEmail.getText().toString(), editTextEnterPassword.getText().toString())
                     .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
                         @Override
                         public void onComplete(@NonNull Task<AuthResult> task) {

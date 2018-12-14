@@ -79,5 +79,5 @@
         android:layout_height="195dp"
         android:layout_below="@+id/buttonFindbytype"
         android:layout_alignParentStart="true"
-        android:text="TextView" />
+        android:text="Search Results" />
 </RelativeLayout>

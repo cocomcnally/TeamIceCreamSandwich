@@ -49,6 +49,8 @@ public class SearchEvent extends Activity implements View.OnClickListener {
 
     }
 
+
+
     public boolean onCreateOptionsMenu(Menu menu) {
 
         getMenuInflater().inflate(R.menu.navmenu, menu);

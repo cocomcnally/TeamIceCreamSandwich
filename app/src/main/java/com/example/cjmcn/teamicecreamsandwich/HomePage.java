@@ -3,6 +3,7 @@ package com.example.cjmcn.teamicecreamsandwich;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
 import android.view.View;
 import android.widget.Button;
 
@@ -31,7 +32,12 @@ public class HomePage extends Activity implements View.OnClickListener {
 
         mAuth = FirebaseAuth.getInstance();
     }
+    public boolean onCreateOptionsMenu(Menu menu) {
 
+        getMenuInflater().inflate(R.menu.navmenu, menu);
+
+        return super.onCreateOptionsMenu(menu);
+    }
     @Override
     public void onClick(View v) {
         if (v == buttonCreate){
