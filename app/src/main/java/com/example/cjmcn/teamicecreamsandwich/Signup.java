@@ -52,7 +52,7 @@ public class Signup extends Activity implements View.OnClickListener{
     public void onClick(View v) {
 
         if (v == buttonSignUp) {
-            mAuth.createUserWithEmailAndPassword(editTextEnterUserName.getText().toString(), editTextEnterPassword.getText().toString())
+            mAuth.createUserWithEmailAndPassword(editTextEnterEmail.getText().toString(), editTextEnterPassword.getText().toString())
                     .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
                         @Override
                         public void onComplete(@NonNull Task<AuthResult> task) {
@@ -60,7 +60,7 @@ public class Signup extends Activity implements View.OnClickListener{
 
                                 FirebaseUser user = mAuth.getCurrentUser();
                                 // Sign in success, update UI with the signed-in user's information
-                                Toast.makeText(Signup.this, "Welcome", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(Signup.this, "Welcome " + user.getEmail(), Toast.LENGTH_SHORT).show();
                                 Intent intentHomePage = new Intent(Signup.this, HomePage.class );
                                 startActivity(intentHomePage);
 
