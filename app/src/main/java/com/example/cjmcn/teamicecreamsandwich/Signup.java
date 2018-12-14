@@ -35,11 +35,11 @@ public class Signup extends Activity implements View.OnClickListener{
         buttonSignUp = findViewById(R.id.buttonSignUp);
         editTextEnterName = findViewById(R.id.editTextEnterName);
         editTextEnterPhoneNumber = findViewById(R.id.editTextEnterPhoneNumber);
-        editTextEnterUserName = findViewById(R.id.editTextEnterName);
+        editTextEnterUserName = findViewById(R.id.editTextEnterUserName);
         editTextEnterInterests = findViewById(R.id.editTextEnterInterests);
         editTextEnterCurrentLocation = findViewById(R.id.editTextEnterCurrentLocation);
-        editTextEnterEmail = findViewById(R.id.editTextEnterPhoneNumber);
-        editTextEnterPassword = findViewById(R.id.editTextEnterName);
+        editTextEnterEmail = findViewById(R.id.editTextEnterEmail);
+        editTextEnterPassword = findViewById(R.id.editTextEnterPassword);
         editTextConfirmPassword = findViewById(R.id.editTextConfirmPassword);
         textViewPrivacy = findViewById(R.id.textViewPrivacy);
 
