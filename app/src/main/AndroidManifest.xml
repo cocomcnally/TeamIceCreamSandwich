@@ -20,9 +20,7 @@
         <activity android:name=".Search" />
         <activity android:name=".Settings" />
         <activity android:name=".Events" />
-        <activity android:name=".Friendsearch" />
         <activity android:name=".Signup" />
-        <activity android:name=".Friendslist" />
         <activity android:name=".TestActivity" />
         <activity
             android:name=".Event_Concert_Astroworld"
