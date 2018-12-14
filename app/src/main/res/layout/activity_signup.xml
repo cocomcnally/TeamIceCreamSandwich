@@ -12,7 +12,8 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="Enter Name"
-        android:inputType="textPersonName" />
+        android:inputType="textPersonName"
+        android:text="Test User" />
 
     <EditText
         android:id="@+id/editTextEnterPhoneNumber"
@@ -20,10 +21,11 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/editTextEnterName"
         android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
         android:ems="10"
         android:hint="Enter Phone Number"
         android:inputType="textPersonName"
-        android:layout_alignParentLeft="true" />
+        android:text="1234567890" />
 
     <EditText
         android:id="@+id/editTextEnterUserName"
@@ -31,13 +33,14 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/editTextEnterPhoneNumber"
         android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
         android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
         android:layout_marginTop="5dp"
         android:ems="10"
         android:hint="Enter User Name"
         android:inputType="textPersonName"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="2dp" />
+        android:text="Test User" />
 
     <EditText
         android:id="@+id/editTextEnterInterests"
@@ -45,13 +48,14 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/editTextEnterPhoneNumber"
         android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
         android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
         android:layout_marginTop="54dp"
         android:ems="10"
         android:hint="Enter Interests"
         android:inputType="textPersonName"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="0dp" />
+        android:text="Sports" />
 
     <EditText
         android:id="@+id/editTextEnterCurrentLocation"
@@ -59,13 +63,14 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/editTextEnterPhoneNumber"
         android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
         android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
         android:layout_marginTop="103dp"
         android:ems="10"
         android:hint="Enter Current Location"
         android:inputType="textPersonName"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="0dp" />
+        android:text="Ann Arbor" />
 
     <EditText
         android:id="@+id/editTextEnterEmail"
@@ -73,13 +78,14 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/editTextEnterPhoneNumber"
         android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
         android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
         android:layout_marginTop="144dp"
         android:ems="10"
         android:hint="Enter Email"
         android:inputType="textPersonName"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="2dp" />
+        android:text="a@a.com" />
 
     <EditText
         android:id="@+id/editTextEnterPassword"
@@ -87,13 +93,14 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/editTextEnterPhoneNumber"
         android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
         android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
         android:layout_marginTop="186dp"
         android:ems="10"
         android:hint="Enter Password"
         android:inputType="textPersonName"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="1dp" />
+        android:text="123456" />
 
     <EditText
         android:id="@+id/editTextConfirmPassword"
