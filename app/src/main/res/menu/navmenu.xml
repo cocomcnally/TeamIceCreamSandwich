@@ -8,9 +8,6 @@
         android:id="@+id/menuSearch"
         android:title="Search Events" />
     <item
-        android:id="@+id/menuFriends"
-        android:title="Friends List" />
-    <item
         android:id="@+id/menuSetting"
         android:title="Settings" />
     <item
