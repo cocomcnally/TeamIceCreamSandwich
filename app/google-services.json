@@ -1,35 +1,35 @@
 {
   "project_info": {
-    "project_number": "586708903237",
-    "firebase_url": "https://teamicecreamsandwich-d2df7.firebaseio.com",
-    "project_id": "teamicecreamsandwich-d2df7",
-    "storage_bucket": "teamicecreamsandwich-d2df7.appspot.com"
+    "project_number": "168380492189",
+    "firebase_url": "https://teamicecreamsandwich-b92f0.firebaseio.com",
+    "project_id": "teamicecreamsandwich-b92f0",
+    "storage_bucket": "teamicecreamsandwich-b92f0.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:586708903237:android:bdf5c0763e85711b",
+        "mobilesdk_app_id": "1:168380492189:android:bdf5c0763e85711b",
         "android_client_info": {
           "package_name": "com.example.cjmcn.teamicecreamsandwich"
         }
       },
       "oauth_client": [
         {
-          "client_id": "586708903237-ek9tg904a26k40v6q65rslfme2ps8kbn.apps.googleusercontent.com",
+          "client_id": "168380492189-jan1vdcvlhqc0mefhhfc8pv5jpdudcgu.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.example.cjmcn.teamicecreamsandwich",
-            "certificate_hash": "2ea0af96bf78da32d9b0c81f0e556463deebff78"
+            "certificate_hash": "b430f15e38aea2a137efb48cb9b8e5e508477881"
           }
         },
         {
-          "client_id": "586708903237-u4q189kbmmhtgklpib5m5jtv6jrdcr2j.apps.googleusercontent.com",
+          "client_id": "168380492189-md3lhnikhahs5tjujsgumuslpr7hgrkk.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBWE1cwz7UKJphih2wUICaTN26bBfM_jMI"
+          "current_key": "AIzaSyAWgq1ezR8VtlZ75IwwqczuFAJAq4BzSEc"
         }
       ],
       "services": {
@@ -40,7 +40,7 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "586708903237-u4q189kbmmhtgklpib5m5jtv6jrdcr2j.apps.googleusercontent.com",
+              "client_id": "168380492189-md3lhnikhahs5tjujsgumuslpr7hgrkk.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

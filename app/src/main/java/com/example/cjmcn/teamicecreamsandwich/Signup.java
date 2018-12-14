@@ -57,8 +57,12 @@ public class Signup extends Activity implements View.OnClickListener{
                         @Override
                         public void onComplete(@NonNull Task<AuthResult> task) {
                             if (task.isSuccessful()) {
+
+                                FirebaseUser user = mAuth.getCurrentUser();
                                 // Sign in success, update UI with the signed-in user's information
                                 Toast.makeText(Signup.this, "Welcome", Toast.LENGTH_SHORT).show();
+                                Intent intentHomePage = new Intent(Signup.this, HomePage.class );
+                                startActivity(intentHomePage);
 
                             } else {
                                 // If sign in fails, display a message to the user.

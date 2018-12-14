@@ -56,6 +56,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
                                 FirebaseUser user = mAuth.getCurrentUser();
                                 Toast.makeText(MainActivity.this, "Logging in: " + user.getEmail(), Toast.LENGTH_SHORT).show();
+
+                                Intent intentHomePage = new Intent(MainActivity.this, HomePage.class );
+                                startActivity(intentHomePage);
                             } else {
                                 // If sign in fails, display a message to the user.
                                 Toast.makeText(MainActivity.this, "Login Fail", Toast.LENGTH_SHORT).show();
