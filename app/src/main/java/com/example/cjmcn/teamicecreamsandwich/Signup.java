@@ -60,7 +60,7 @@ public class Signup extends Activity implements View.OnClickListener{
 
                                 FirebaseUser user = mAuth.getCurrentUser();
                                 // Sign in success, update UI with the signed-in user's information
-                                Toast.makeText(Signup.this, "Welcome", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(Signup.this, "Welcome " + user.getEmail(), Toast.LENGTH_SHORT).show();
                                 Intent intentHomePage = new Intent(Signup.this, HomePage.class );
                                 startActivity(intentHomePage);
 
