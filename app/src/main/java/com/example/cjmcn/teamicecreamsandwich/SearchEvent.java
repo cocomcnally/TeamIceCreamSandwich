@@ -1,13 +1,17 @@
 package com.example.cjmcn.teamicecreamsandwich;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.ChildEventListener;
@@ -44,6 +48,35 @@ public class SearchEvent extends Activity implements View.OnClickListener {
      mAuth = FirebaseAuth.getInstance();
 
     }
+
+    public boolean onCreateOptionsMenu(Menu menu) {
+
+        getMenuInflater().inflate(R.menu.navmenu, menu);
+
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if (item.getItemId() == R.id.menuLogout) {
+            Intent intentLogout = new Intent(this, MainActivity.class);
+            startActivity(intentLogout);
+        } else if (item.getItemId() == R.id.menuSearch) {
+            Toast.makeText(this, "You are already on Search Page", Toast.LENGTH_SHORT).show();
+        } else if (item.getItemId() == R.id.menuEvents) {
+            Intent intentEvents = new Intent(this, Events.class);
+            startActivity(intentEvents);
+        } else if (item.getItemId() == R.id.menuSetting){
+            Intent intentSettings = new Intent(this, Settings.class);
+            startActivity(intentSettings);
+        } else if (item.getItemId() == R.id.menuHomepage){
+            Intent intentHomepage = new Intent(this, HomePage.class);
+            startActivity(intentHomepage);
+        }
+
+        return super.onOptionsItemSelected(item);
+    }
+
 
     @Override
     public void onClick(View v) {
