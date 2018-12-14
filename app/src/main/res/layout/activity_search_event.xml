@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SearchEvent">
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Search for Events"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editFindbyname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="42dp"
+        android:ems="10"
+        android:hint="Enter in Event Name"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/buttonFindbyname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editFindbyname"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="-8dp"
+        android:text="Find Event by Event Name" />
+
+    <EditText
+        android:id="@+id/editFindbydate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonFindbyname"
+        android:layout_alignParentStart="true"
+        android:ems="10"
+        android:hint="Enter in Event Date"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/buttonFindbydate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editFindbydate"
+        android:layout_alignParentStart="true"
+        android:text="Find Event by Event Date" />
+
+    <EditText
+        android:id="@+id/editFindbytype"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonFindbydate"
+        android:layout_alignParentStart="true"
+        android:ems="10"
+        android:hint="Enter in Event Type"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/buttonFindbytype"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editFindbytype"
+        android:layout_alignParentStart="true"
+        android:text="Find Event by Event Type" />
+
+    <TextView
+        android:id="@+id/textViewSearch"
+        android:layout_width="match_parent"
+        android:layout_height="195dp"
+        android:layout_below="@+id/buttonFindbytype"
+        android:layout_alignParentStart="true"
+        android:text="TextView" />
+</RelativeLayout>
