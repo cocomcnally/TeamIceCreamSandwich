@@ -1,6 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <TextView
+        android:id="@+id/textViewAbout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="1dp"
+        android:text="ABOUT"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewObjective"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="113dp"
+        android:text="OBJECTIVE"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewObjectiveDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="133dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:text="To build an app that empowers individuals to find new activities to participate in and make new friends to attend different events or group activities together by matching individuals who share common interests" />
+
+    <Button
+        android:id="@+id/buttonHomePage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textViewAbout"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="2dp"
+        android:text="Return to Homepage" />
 </RelativeLayout>
