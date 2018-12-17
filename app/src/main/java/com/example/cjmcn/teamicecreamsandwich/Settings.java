@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 public class Settings extends Activity implements View.OnClickListener{
 
-    Button  buttonInterests, buttonSecutrity;
+    Button  buttonInterests, buttonSecurity;
     Button  buttonFAQ, buttonLegal, buttonAbout, buttonUsername;
     Button  buttonHomepage;
     TextView    textViewSettings;
@@ -22,7 +22,7 @@ public class Settings extends Activity implements View.OnClickListener{
 
 
         buttonInterests = findViewById(R.id.buttonInterests);
-        buttonSecutrity = findViewById(R.id.buttonSecurity);
+        buttonSecurity = findViewById(R.id.buttonSecurity);
         buttonFAQ = findViewById(R.id.buttonFAQ);
         buttonLegal = findViewById(R.id.buttonLegal);
         buttonAbout = findViewById(R.id.buttonAbout);
@@ -32,7 +32,7 @@ public class Settings extends Activity implements View.OnClickListener{
 
 
         buttonInterests.setOnClickListener(this);
-        buttonSecutrity.setOnClickListener(this);
+        buttonSecurity.setOnClickListener(this);
         buttonFAQ.setOnClickListener(this);
         buttonLegal.setOnClickListener(this);
         buttonAbout.setOnClickListener(this);
@@ -48,6 +48,36 @@ public class Settings extends Activity implements View.OnClickListener{
         if(v == buttonHomepage){
             Intent intentHomePage = new Intent(Settings.this, HomePage.class);
             startActivity(intentHomePage);
+        }
+
+        else if(v == buttonInterests){
+            Intent  intentInterests = new Intent(Settings.this, Interests.class);
+            startActivity(intentInterests);
+        }
+
+        else if(v == buttonUsername){
+            Intent  intentUsername = new Intent(Settings.this, Username.class);
+            startActivity(intentUsername);
+        }
+
+        else if(v == buttonSecurity){
+            Intent  intentSecurity = new Intent(Settings.this, Security.class);
+            startActivity(intentSecurity);
+        }
+
+        else if(v == buttonFAQ){
+            Intent  intentFAQ = new Intent(Settings.this, FAQ.class);
+            startActivity(intentFAQ);
+        }
+
+        else if(v == buttonLegal){
+            Intent  intentLegal = new Intent(Settings.this, Legal.class);
+            startActivity(intentLegal);
+        }
+
+        else if(v == buttonAbout){
+            Intent  intentAbout = new Intent(Settings.this, About.class);
+            startActivity(intentAbout);
         }
 
 
