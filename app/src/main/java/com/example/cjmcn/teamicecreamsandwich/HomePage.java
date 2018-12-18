@@ -33,6 +33,8 @@ public class HomePage extends Activity implements View.OnClickListener {
 
         mAuth = FirebaseAuth.getInstance();
     }
+
+    //We tried multiple times to get our menu to work but to no avail. We encountered errors each time.
     public boolean onCreateOptionsMenu(Menu menu) {
 
         getMenuInflater().inflate(R.menu.navmenu, menu);
