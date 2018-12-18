@@ -95,7 +95,7 @@ public class SearchEvent extends Activity implements View.OnClickListener {
                     String findKey = dataSnapshot.getKey();
                     Eventstorage findEvent = dataSnapshot.getValue(Eventstorage.class);
 
-                    textViewSearch.setText("Events by selected date: " + findEvent.title);
+                    textViewSearch.setText("Events by selected date: " + findEvent.title + "\n" + "Taking place on: " + findEvent.date + "\n" + "With a group of: " + findEvent.numpeople + "\n" + "Enjoy the " + findEvent.type + " event!");
                 }
 
                 @Override
@@ -128,7 +128,7 @@ public class SearchEvent extends Activity implements View.OnClickListener {
                     String findKey = dataSnapshot.getKey();
                     Eventstorage findEvent = dataSnapshot.getValue(Eventstorage.class);
 
-                    textViewSearch.setText("Events by title: " + findEvent.title);
+                    textViewSearch.setText("Events by title: " + findEvent.title + "\n" + "Taking place on: " + findEvent.date + "\n" + "With a group of: " + findEvent.numpeople + "\n" + "Enjoy the " + findEvent.type + " event!");
                 }
 
                 @Override
@@ -153,14 +153,14 @@ public class SearchEvent extends Activity implements View.OnClickListener {
             });
 
         } else if (v==buttonFindbytype) {
-            String findType = editFindbyname.getText().toString();
+            String findType = editFindbytype.getText().toString();
             myRef.orderByChild("type").limitToFirst(5).equalTo(findType).addChildEventListener(new ChildEventListener() {
                 @Override
                 public void onChildAdded(@NonNull DataSnapshot dataSnapshot, @Nullable String s) {
                     String findKey = dataSnapshot.getKey();
                     Eventstorage findEvent = dataSnapshot.getValue(Eventstorage.class);
 
-                    textViewSearch.setText("Events by type: " + findEvent.title);
+                    textViewSearch.setText("Events by type: " + findEvent.title + "\n" + "Taking place on: " + findEvent.date + "\n" + "With a group of: " + findEvent.numpeople + "\n" + "Enjoy the " + findEvent.type + " event!");
                 }
 
                 @Override
