@@ -34,9 +34,9 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="0dp"
         android:layout_marginTop="133dp"
+        android:text="To build an app that empowers individuals to find new activities to participate in and make new friends to attend different events or group activities together by matching individuals who share common interests"
         android:textSize="18sp"
-        android:textStyle="bold"
-        tools:text="To build an app that empowers individuals to find new activities to participate in and make new friends to attend different events or group activities together by matching individuals who share common interests" />
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/buttonHomepage"
