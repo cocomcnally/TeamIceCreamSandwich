@@ -46,37 +46,37 @@ public class Settings extends Activity implements View.OnClickListener{
     public void onClick(View v) {
 
         if(v == buttonHomepage){
-            Intent intentHomePage = new Intent(Settings.this, HomePage.class);
+            Intent intentHomePage = new Intent(this, HomePage.class);
             startActivity(intentHomePage);
         }
 
         else if(v == buttonInterests){
-            Intent  intentInterests = new Intent(Settings.this, Interests.class);
+            Intent  intentInterests = new Intent(this, Interests.class);
             startActivity(intentInterests);
         }
 
         else if(v == buttonUsername){
-            Intent  intentUsername = new Intent(Settings.this, Username.class);
+            Intent  intentUsername = new Intent(this, Username.class);
             startActivity(intentUsername);
         }
 
         else if(v == buttonSecurity){
-            Intent  intentSecurity = new Intent(Settings.this, Security.class);
+            Intent  intentSecurity = new Intent(this, Security.class);
             startActivity(intentSecurity);
         }
 
         else if(v == buttonFAQ){
-            Intent  intentFAQ = new Intent(Settings.this, FAQ.class);
+            Intent  intentFAQ = new Intent(this, FAQ.class);
             startActivity(intentFAQ);
         }
 
         else if(v == buttonLegal){
-            Intent  intentLegal = new Intent(Settings.this, Legal.class);
+            Intent  intentLegal = new Intent(this, Legal.class);
             startActivity(intentLegal);
         }
 
         else if(v == buttonAbout){
-            Intent  intentAbout = new Intent(Settings.this, About.class);
+            Intent  intentAbout = new Intent(this, About.class);
             startActivity(intentAbout);
         }
 
