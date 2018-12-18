@@ -17,10 +17,10 @@ public class About extends Activity implements View.OnClickListener{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_about);
 
-        buttonHomepage.findViewById(R.id.buttonHomepage);
-        textViewAbout.findViewById(R.id.textViewFAQ);
-        textViewObjective.findViewById(R.id.textViewObjective);
-        textViewObjectiveDescription.findViewById(R.id.textViewObjectiveDescription);
+        buttonHomepage = findViewById(R.id.buttonHomepage);
+        textViewAbout = findViewById(R.id.textViewFAQ);
+        textViewObjective = findViewById(R.id.textViewObjective);
+        textViewObjectiveDescription = findViewById(R.id.textViewObjectiveDescription);
 
         buttonHomepage.setOnClickListener(this);
 
