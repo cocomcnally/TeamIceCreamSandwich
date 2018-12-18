@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-import org.w3c.dom.Text;
 
 public class About extends Activity implements View.OnClickListener{
 
@@ -16,10 +15,10 @@ public class About extends Activity implements View.OnClickListener{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home_page);
+        setContentView(R.layout.activity_about);
 
         buttonHomepage.findViewById(R.id.buttonHomepage);
-        textViewAbout.findViewById(R.id.textViewAbout);
+        textViewAbout.findViewById(R.id.textViewFAQ);
         textViewObjective.findViewById(R.id.textViewObjective);
         textViewObjectiveDescription.findViewById(R.id.textViewObjectiveDescription);
 

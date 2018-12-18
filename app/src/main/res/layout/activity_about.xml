@@ -6,7 +6,7 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/textViewAbout"
+        android:id="@+id/textViewFAQ"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -42,7 +42,7 @@
         android:id="@+id/buttonHomePage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/textViewAbout"
+        android:layout_alignEnd="@+id/textViewFAQ"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="2dp"
         android:text="Return to Homepage" />

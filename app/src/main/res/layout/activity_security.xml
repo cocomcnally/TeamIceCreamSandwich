@@ -3,4 +3,20 @@
     xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <TextView
+        android:id="@+id/textViewSecurity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="SECURITY"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/buttonHomepage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textViewSecurity"
+        android:layout_alignParentBottom="true"
+        android:text="Return to Homepage" />
 </RelativeLayout>
