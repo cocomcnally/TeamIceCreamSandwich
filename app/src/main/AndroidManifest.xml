@@ -26,6 +26,12 @@
             android:label="@string/title_activity_event__concert__astroworld"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".SearchEvent"></activity>
+        <activity android:name=".FAQ" />
+        <activity android:name=".Interests" />
+        <activity android:name=".Username" />
+        <activity android:name=".Security" />
+        <activity android:name=".Legal" />
+        <activity android:name=".About" />
     </application>
 
 </manifest>
