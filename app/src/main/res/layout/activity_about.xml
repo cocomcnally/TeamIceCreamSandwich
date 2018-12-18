@@ -39,11 +39,11 @@
         tools:text="To build an app that empowers individuals to find new activities to participate in and make new friends to attend different events or group activities together by matching individuals who share common interests" />
 
     <Button
-        android:id="@+id/buttonHomePage"
+        android:id="@+id/buttonHomepage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/textViewFAQ"
+        android:layout_alignStart="@+id/textViewFAQ"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="2dp"
         android:text="Return to Homepage" />
+
 </RelativeLayout>
